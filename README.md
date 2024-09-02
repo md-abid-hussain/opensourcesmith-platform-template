@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# OpenSourceSmith Platform Template
+
+This is a template for creating a platform using Next.js, Prisma ORM, Neon Postgres, CopilotKit, Google Gemini, Tailwind CSS, Shadcn, and NextAuth.
+
+## Features
+
+- **Next.js**: A React framework for building server-side rendered and static websites.
+- **Prisma ORM**: A modern database toolkit for TypeScript and Node.js that provides an auto-generated and type-safe query builder.
+- **Neon Postgres**: A PostgreSQL database driver for Node.js that offers high performance and reliability.
+- **CopilotKit**: A collection of React components and utilities for building user interfaces.
+- **Google Gemini**: A powerful AI library for generating creative and innovative solutions.
+- **Tailwind CSS**: A utility-first CSS framework for rapidly building custom user interfaces.
+- **Shadcn**: A lightweight library for adding beautiful and interactive shadows to your elements.
+- **NextAuth**: An authentication library for Next.js applications that supports various authentication providers.
 
 ## Getting Started
 
-First, run the development server:
+To get started with this template, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Clone the repository: `git clone https://github.com/opensourcesmith/opensourcesmith-platform-template.git`
+2. Install dependencies: `npm install`
+3. Set up your environment variables by creating a `.env` file based on the `.env.example` file.
+4. Run the development server: `npm run dev`
+5. Open your browser and navigate to `http://localhost:3000` to see the platform in action.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Follow documentation for each library to learn more about how to use them in your project:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Contributing
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request.
 
-## Learn More
+## License
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the [MIT License](LICENSE).
